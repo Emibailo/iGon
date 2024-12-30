@@ -1,0 +1,267 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+body{
+    background-color: #E0FFFF;
+}
+
+main {
+	display: flex;
+}
+
+p {
+	display: inline-block;
+}
+
+header{
+  background-color: #163A5F;
+  padding: 4vh;
+  margin: 0%;
+  color: #ffffff;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7vh;
+}
+
+#titulo{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2%;
+
+    font-size: 9vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logoPrincipal{
+    width: 7%;
+}
+
+/*area de pesquisa no header*/
+#caixaPesquisa {
+    width: 25%;
+    margin-top: -3%;
+    margin-left: 75%;
+}
+
+#btnPesquisar{
+    border-color: #6491b0;
+    background-color: #6491b0;
+    color: #ffffff;
+}
+
+:hover#btnPesquisar{
+    background-color: #163A5F;
+}
+
+#sobreNos_seg{
+    margin-left: 23%  !important;
+}
+
+/*navbar e os segmentos que compoem ela, produtos, sobre nós, conattos e localização*/
+
+nav{
+    background-color: #6491b0;
+}
+
+.segmentos{
+    color: #ffffff;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+
+    padding: 1%;
+    margin-right: 8%;
+    margin-left: 5%;
+}
+
+/*botão do dropdown de produtos*/
+
+#btn_drop{
+    border-color: #6491b0;
+    border-radius: 0%;
+    border-style: none;
+    box-shadow: inset;
+    background-color: #6491b0;
+
+    color: #ffffff;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+}
+
+/*Nossa Missão*/
+#titulo_NossaMissao{
+    color: #163A5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6vh;
+
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#texto_NossaMissao{
+    color: #163A5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5vh;
+
+    width: 50%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#img_NossaMissao{
+    padding: 0%;
+    margin-top: -3%;
+    margin-left: 3%;
+    position: absolute;
+   
+}
+
+/*Nossos Valores*/
+#NossosValores{
+    background-color: #163A5F;
+    padding: 7vh;
+
+    margin-top: 5%;
+}
+
+#titulo_NossosValores{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6vh;
+
+    margin-left: 40%;
+}
+
+.top_Valores{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+/*Trabalhe Conosco*/
+#img_trabalheConosco{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#Titulo_trabalheConosco{
+    margin-left: 60%;
+    margin-top: -25%;
+
+    color: #163A5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6vh;
+}
+
+#texto_trabalheConosco{
+    color: #163A5F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5vh;
+
+    text-align: center;
+    width: 50%;
+    margin-left: 45%;
+}
+
+#btn_JunteSe{
+    margin-left: 65%;
+    width: 10%;
+    height: 5%;
+    padding: 2vh;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5vh;
+}
+
+/*secction contactos*/
+#contactos{
+    margin-top: 5%;
+    padding: 3%;
+    background-image: url(fotos/backContactos.png);
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: center;
+
+}
+
+/*secction localizacao*/
+#localizacao{
+    background-image: url(fotos/backLocal.png);
+    width: 100%;
+    padding: 0%;
+}
+
+#mpLocal{
+    margin-left: 33%;
+}
+
+#titLocal{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+
+/*footer da igon azul claro*/
+.footerIgon{
+    background-color: #6491b0;
+    padding: 4vh;
+   
+}
+
+#ftLogoFooter{
+    width: 7%;
+    margin-left: 37%;
+}
+
+#igonFooter{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2%;
+    
+
+    font-size: 9vh;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

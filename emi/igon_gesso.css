@@ -1,0 +1,239 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+body{
+    background-color: #E0FFFF;
+}
+
+main {
+	display: flex;
+}
+
+p {
+	display: inline-block;
+}
+
+header{
+    background-color: #163A5F;
+    padding: 4vh;
+    margin: 0%;
+    color: #ffffff;
+  
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7vh;
+  }
+  
+  #titulo{
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 2%;
+  
+      font-size: 9vh;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  #logoPrincipal{
+      width: 7%;
+  }
+
+  /*area de pesquisa no header*/
+#caixaPesquisa {
+    width: 25%;
+    margin-top: -3%;
+    margin-left: 75%;
+}
+
+#btnPesquisar{
+    border-color: #6491b0;
+    background-color: #6491b0;
+    color: #ffffff;
+}
+
+:hover#btnPesquisar{
+    background-color: #163A5F;
+}
+
+#sobreNos_seg{
+    margin-left: 23%  !important;
+}
+  
+  /*navbar e os segmentos que compoem ela, produtos, sobre nós, conattos e localização*/
+  
+  nav{
+      background-color: #6491b0;
+  }
+  
+  .segmentos{
+      color: #ffffff;
+  
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 4vh;
+  
+      padding: 1%;
+      margin-right: 8%;
+      margin-left: 5%;
+  }
+  
+  /*botão do dropdown de produtos*/
+  
+  #btn_drop{
+      border-color: #6491b0;
+      border-radius: 0%;
+      border-style: none;
+      box-shadow: inset;
+      background-color: #6491b0;
+  
+      color: #ffffff;
+  
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 4vh;
+  }
+
+  /*classe para todos os cards*/
+  .card{
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 5vh;
+
+    border-radius: 15px 15px 15px 15px;
+
+  }
+
+  .ftCard{
+    width: 80%;
+    padding: 2%;
+    margin: 10% 0% 0% 10%;
+  }
+
+  .card2{
+    
+    margin-right: 83vh;
+  }
+
+  /*footer com contatos*/
+footer{
+    margin-top: 5%;
+    background-color: #163A5F;
+    padding: 10vh;
+}
+
+.footer_principal{
+    color: #ffffff;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6vh;
+ 
+}
+
+#footer_contatos{
+    margin-left: 15vh;
+}
+
+#contatos{
+    margin-top: 0vh;
+    margin-left: 5vh;
+}
+
+#footer_localizacao{
+    margin-left: 90vh;
+}
+
+.seccao_info{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+}
+
+#morada{
+    margin-left: 50vh;
+    margin-top: 0vh;
+
+    width: 20%;
+}
+
+#ftLoja{
+    float: right;
+    
+}
+
+/*secction contactos*/
+#contactos{
+    margin-top: 5%;
+    padding: 3%;
+    background-image: url(fotos/backContactos.png);
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: center;
+
+}
+
+/*secction localizacao*/
+#localizacao{
+    background-image: url(fotos/backLocal.png);
+    width: 100%;
+    padding: 0%;
+}
+
+#mpLocal{
+    margin-left: 33%;
+}
+
+#titLocal{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+
+
+/*Footer azul claro com a logo e o nome*/
+
+.footerIgon{
+    background-color: #6491b0;
+    padding: 4vh;
+}
+
+#ftLogoFooter{
+    width: 7%;
+    margin-left: 37%;
+}
+
+#igonFooter{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2%;
+    
+
+    font-size: 9vh;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+  

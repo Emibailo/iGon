@@ -1,0 +1,239 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+body{
+    background-color: #E0FFFF;
+}
+
+main {
+	display: flex;
+}
+
+p {
+	display: inline-block;
+}
+
+header{
+  background-color: #163A5F;
+  padding: 4vh;
+  margin: 0%;
+  color: #ffffff;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7vh;
+}
+
+#titulo{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2%;
+
+    font-size: 9vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logoPrincipal{
+    width: 7%;
+}
+
+/*area de pesquisa no header*/
+#caixaPesquisa {
+    width: 25%;
+    margin-top: -3%;
+    margin-left: 75%;
+}
+
+#btnPesquisar{
+    border-color: #6491b0;
+    background-color: #6491b0;
+    color: #ffffff;
+}
+
+:hover#btnPesquisar{
+    background-color: #163A5F;
+}
+
+/*navbar e os segmentos que compoem ela, produtos, sobre nós, conattos e localização*/
+
+nav{
+    background-color: #6491b0;
+}
+
+.segmentos{
+    color: #ffffff;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+
+    padding: 1%;
+    margin-right: 10%;
+    margin-left: 1%;
+}
+
+/*deu erro nessa linha mas cumpriu o propósito, antes de passar para o css do resto resolver*/
+#sobreNos_seg{
+    margin-left: 23%  !important;
+}
+
+
+/*botão do dropdown de produtos*/
+
+/*#btn_drop{
+    border-color: #6491b0;
+    border-radius: 0%;
+    border-style: none;
+    box-shadow: inset;
+    background-color: #6491b0;
+
+    color: #ffffff;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+}*/
+
+/*fotos do carroussel de fotos na pag principal*/
+
+#fotoGesso1{
+    height: 50vh;
+}
+
+#fotoPlacaCimenticia1{
+    height: 50vh;
+}
+
+#fotoPladur1{
+    height: 50vh;
+}
+
+/*Foto de placas diversas no card da pag principal e seus segmentos como texto e especificações do card*/
+
+.ftPlacaDiv{
+    width: 80%;
+    padding: 2%;
+    margin: 10% 0% 0% 10%;
+}
+
+.textoPlacasDiversas{
+    text-align: center;
+    margin-top: 3%;
+}
+
+/*classe para todos os cards*/
+.cardPlacasDiversas{
+    margin-top: 5vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-bottom: 15vh;
+    size: 50%;
+    
+
+    border-radius: 15px;
+
+    /*código que diz respeito a variação com 3 cards
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 5vh;
+
+    border-radius: 15px 15px 15px 15px;*/
+}
+
+#placasDiversasBtn{
+    width: 100%;
+    background-color: green;
+    border-color: green;
+    padding: 2%;
+    font-size: 3vh;
+}
+
+#placasDiversasBtn1{
+    width: 100%;
+    background-color: blue;
+    border-color: blue;
+    padding: 2%;
+    font-size: 3vh;
+}
+
+/*comentário do botão que era do 3 card
+#placasDiversasBtn2{
+    width: 100%;
+    background-color: red;
+    border-color: red;
+    padding: 2%;
+    font-size: 3vh;
+}*/
+
+/*secction contactos*/
+#contactos{
+    margin-top: 5%;
+    padding: 3%;
+    background-image: url(fotos/backContactos.png);
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: center;
+
+}
+
+/*secction localizacao*/
+#localizacao{
+    background-image: url(fotos/backLocal.png);
+    width: 100%;
+    padding: 0%;
+}
+
+#mpLocal{
+    margin-left: 33%;
+}
+
+#titLocal{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vh;
+    text-align: center;
+    color: #ffffff;
+    
+
+}
+
+
+/*Footer azul claro com a logo e o nome*/
+
+.footerIgon{
+    background-color: #6491b0;
+    padding: 4vh;
+}
+
+#ftLogoFooter{
+    width: 7%;
+    margin-left: 37%;
+}
+
+#igonFooter{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2%;
+    
+
+    font-size: 9vh;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
